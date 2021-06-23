@@ -1,0 +1,44 @@
+// Primary
+$Pink: hsl(322, 100%, 66%);
+$Light-Pink: hsl(321, 100%, 78%);
+$Light-Red: hsl(0, 100%, 63%);
+
+// Neutral
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pal-Blue: hsl(207, 100%, 98%);
+$colorRed: red;
+$grey: #a3a9af;
+// fonts
+$heading: "Poppins", sans-serif;
+$bodyFonts: "Open Sans", sans-serif;
+
+// Responsive break points
+$mobile: 37.5rem; // 600px / 16px = 37.5rem
+$SmallDeskTop: 66.375rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6;
+  font-family: $bodyFonts;
+  font-weight: 400;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}

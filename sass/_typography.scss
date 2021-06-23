@@ -1,0 +1,25 @@
+h1,
+h2,
+h3 {
+  font-family: $heading;
+}
+h1 {
+  font-size: 4rem;
+  color: $Very-Dark-Cyan;
+  font-family: $heading;
+  @media screen and(max-width: $mobile) {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+h2 {
+  font-size: 4.5rem;
+  color: $Very-Dark-Cyan;
+  font-family: $heading;
+  @media screen and(max-width: $mobile) {
+    font-size: 3rem;
+  }
+}
+p {
+  font-size: 1.7rem;
+}

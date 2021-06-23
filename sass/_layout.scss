@@ -1,0 +1,111 @@
+.container {
+  padding: 0 4rem;
+}
+
+.growSection::before {
+  content: "";
+  width: 100%;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  position: absolute;
+  top: -165px;
+  left: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  @media screen and(max-width: $mobile) {
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    top: -144px;
+    left: 0px;
+    background-size: contain;
+  }
+}
+.growSection::after {
+  content: "";
+  width: 100%;
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+  position: absolute;
+  // bottom: 0;
+  left: 0;
+  height: 25%;
+  background-repeat: no-repeat;
+  @media screen and(max-width: $mobile) {
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    left: 0px;
+    background-size: cover;
+    bottom: -139px;
+  }
+}
+.growSection {
+  // height: 100vh;
+  background-color: $Very-Pal-Blue;
+  position: relative;
+  margin: 15rem 0;
+}
+
+.yourUserSection::before {
+  content: "";
+  width: 100%;
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  position: absolute;
+  top: -165px;
+  left: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  @media screen and(max-width: $mobile) {
+    background-image: url(../images/bg-section-top-mobile-1.svg);
+    top: -144px;
+    left: 0px;
+    background-size: contain;
+  }
+}
+.yourUserSection::after {
+  content: "";
+  width: 100%;
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+  position: absolute;
+  // bottom: 0;
+  left: 0;
+  height: 25%;
+  background-repeat: no-repeat;
+  @media screen and(max-width: $mobile) {
+    background-image: url(../images/bg-section-bottom-mobile-1.svg);
+    left: 0px;
+    background-size: cover;
+    bottom: -139px;
+  }
+}
+.yourUserSection {
+  // height: 100vh;
+  background-color: $Very-Pal-Blue;
+  position: relative;
+  margin: 15rem 0;
+}
+.row {
+  display: flex;
+  height: 100vh;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  @media screen and(max-width: $SmallDeskTop) {
+    width: 90%;
+  }
+  @media screen and(max-width: $mobile) {
+    flex-direction: column;
+  }
+}
+
+.item {
+  flex-basis: 50%;
+}
+.community {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0;
+}
+.footerSection {
+  background-color: $Very-Dark-Cyan;
+  display: flex;
+  flex-direction: column;
+  @media screen and(max-width: $mobile) {
+    padding-top: 10rem;
+  }
+}
