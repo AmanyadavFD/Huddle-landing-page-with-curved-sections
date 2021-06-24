@@ -34,8 +34,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  &__item {
-  }
+
   &__logo {
     width: 25rem;
     @media screen and(max-width: $mobile) {
@@ -92,7 +91,7 @@
     box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.3);
     margin-top: 5rem;
     @media screen and(max-width: $mobile) {
-       font-size:1rem;
+      font-size: 1rem;
     }
   }
   &__image {
@@ -285,10 +284,11 @@
     flex: 0 0 40%;
     @media screen and(max-width: $SmallDeskTop) {
       flex-basis: 60%;
-      padding-left: 0rem;
+      padding-left: 5rem;
     }
     @media screen and(max-width: $mobile) {
       flex-basis: 100%;
+      padding-left: 0;
     }
     &__heading {
       font-size: 3rem;
@@ -296,7 +296,7 @@
     &__para {
       font-size: 1.5rem;
       margin: 1rem 0;
- 
+      padding-right: 3rem;
     }
   }
 }
@@ -304,9 +304,6 @@
 .form {
   display: flex;
   margin-top: 4rem;
-  @media screen and(max-width: $mobile) {
-     flex-direction: column;
-  }
   &__box {
     position: relative;
     margin-right: 3rem;
@@ -335,10 +332,6 @@
     color: #fff;
     border-radius: 3px;
     font-weight: 600;
-    @media screen and(max-width: $mobile) {
-      padding: 1.6rem;
-      margin-top: 1rem;
-    }
   }
 }
 .attribution {
