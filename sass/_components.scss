@@ -285,7 +285,7 @@
     flex: 0 0 40%;
     @media screen and(max-width: $SmallDeskTop) {
       flex-basis: 60%;
-      padding-left: 5rem;
+      padding-left: 0rem;
     }
     @media screen and(max-width: $mobile) {
       flex-basis: 100%;
@@ -296,7 +296,7 @@
     &__para {
       font-size: 1.5rem;
       margin: 1rem 0;
-      padding-right: 3rem;
+ 
     }
   }
 }
@@ -304,6 +304,9 @@
 .form {
   display: flex;
   margin-top: 4rem;
+  @media screen and(max-width: $mobile) {
+     flex-direction: column;
+  }
   &__box {
     position: relative;
     margin-right: 3rem;
@@ -332,6 +335,10 @@
     color: #fff;
     border-radius: 3px;
     font-weight: 600;
+    @media screen and(max-width: $mobile) {
+      padding: 1.6rem;
+      margin-top: 1rem;
+    }
   }
 }
 .attribution {
