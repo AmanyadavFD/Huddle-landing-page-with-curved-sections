@@ -84,7 +84,10 @@ img {
     border-radius: 6rem;
     padding: 1.8rem 12rem;
     box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.3);
-    margin-top: 5rem; }
+    margin-top: 5rem; 
+    @media screen and (max-width: 37.5rem) {
+      font-size: 1rem;
+    }}
   .header__image {
     display: flex;
     justify-content: center;
