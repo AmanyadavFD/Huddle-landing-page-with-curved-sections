@@ -293,7 +293,7 @@ img {
     background-color: #ff52bf; }
   @media screen and (max-width: 37.5rem) {
     .attribution {
-      margin-top: 7rem; } }
+      margin-top: 13rem; } }
 
 .container {
   padding: 0 4rem; }
@@ -310,6 +310,7 @@ img {
   @media screen and (max-width: 37.5rem) {
     .growSection::before {
       background-image: url(../images/bg-section-top-mobile-1.svg);
+      top: -11rem;
       left: 0px;
       background-size: contain; } }
 
