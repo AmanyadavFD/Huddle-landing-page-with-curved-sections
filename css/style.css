@@ -87,7 +87,8 @@ img {
     margin-top: 5rem; 
     @media screen and (max-width: 37.5rem) {
       font-size: 1rem;
-    }}
+    }
+}
   .header__image {
     display: flex;
     justify-content: center;
