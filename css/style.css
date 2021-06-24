@@ -69,10 +69,7 @@ img {
     @media screen and (max-width: 66.375rem) {
       .header__paragraph {
         width: 100%; } }
-    @media screen and (max-width: 37.5rem) {
-      .header__paragraph {
-        width: 100%;
-        margin-top: 4rem; } }
+    }
   .header__btn {
     text-align: center;
     background-color: #ff52bf;
